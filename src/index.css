@@ -1,13 +1,129 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.navbarClass {
+  padding: 10px;
+}
+.navbarLogo {
+  width: 71%;
+  float: left;
+}
+.contactClass {
+  float: right;
+  width: 29%;
+}
+.numberClass p {
+  font-size: 20px;
+  color: #fff;
+  font-weight: 600;
+}
+.numberClass span {
+  padding-right: 10px;
+  position: relative;
+top: 7px;
+}
+.numberClass p:hover {
+  cursor: pointer;
+}
+.emailClass p:hover {
+  cursor: pointer;
+}
+.emailClass span {
+  padding-right: 10px;
+  position: relative;
+top: 7px;
+}
+.emailClass p {
+  font-size: 20px;
+  color: #fff;
+  font-weight: 600;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body{
+background-image: url("../src/Assets/BackgroundImg.svg");
+width:100%;
+height:100%;
+}
+.mainDiv{
+  display: inline-flex;
+  align-content: center;
+  justify-content: center;
+}
+.imgClass{
+  align-items: center;
+  margin: 5px;
+  width: 95%;
+}
+
+.listClass{
+  align-items: center;
+  margin: 5px;
+  width: 100%;
+}
+.formClass{
+  align-items: center;
+  margin: 15px;
+  width: 80%;
+  text-align: center;
+}
+
+.img-class{
+  background-image: url("../src/Assets/SideImg.svg");
+  width: 399px;
+  height: 638px;
+  align-items: center;
+  margin-left: -10px;
+}
+.listClass h2 {
+  color: #ffa600;
+  font-size: 38px;
+}
+.headingClass span {
+  color: #fff;
+}
+.ulClass li {
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 40px;
+}
+
+.formBgClass {
+  background-color: #fff;
+  border-radius: 15px;
+  padding: 5px 15px 20px;
+  width: 300px;
+}
+.formBgClass input {
+  width: 265px;
+  padding: 10px 5px 10px;
+  text-align: left;
+  margin-bottom: 20px;
+  box-shadow: 1px 1px 1px gray;
+
+}
+.checkBox {
+  width: 13px !important;
+  margin-bottom: 0px !important;
+  box-shadow: none !important;
+}
+
+.formBgClass h3 {
+  font-size: 24px;
+}
+.btnClass {
+  background-color: #ffa600;
+  color: #000;
+  border: none;
+  font-size: 20px;
+  font-weight: 400;
+  text-transform: uppercase;
+  border-radius: 10px;
+  padding: 5px 20px 5px;
+  margin-top: 10px;
+  box-shadow: 1px 1px 1px 1px gray;
+}
+
+.btnClass:hover{
+  transform: scale(1.1);
+}
+.error{
+  color: rgb(143, 34, 34); 
 }
